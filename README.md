@@ -5,7 +5,7 @@
 너무 재밌습니다. 감사합니다~
 
 
-2. 아두이노 코드
+2. 아두이노 코드{
 
 void setup() {  
 
@@ -18,10 +18,12 @@ void loop() {
   Serial.println(a); //a=a+1;
   
   delay(500);
+  
 }
 
+}
 
-3. 프로세싱 코드
+3. 프로세싱 코드{
 
 import processing.serial.*;
 
@@ -52,4 +54,6 @@ void draw(){
     
   }
   
+}
+
 }
