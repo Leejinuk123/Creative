@@ -6,10 +6,13 @@
 
 
 2. 아두이노 코드
+
 void setup() {  
+
   Serial.begin(9600);
 }
 void loop() {
+
   int a = analogRead(A0);
   Serial.println(a); //a=a+1;
   delay(500);
@@ -19,11 +22,14 @@ void loop() {
 3. 프로세싱 코드
 
 import processing.serial.*;
+
 Serial p;
 void setup(){
+
   size(300,300);
   p=new Serial(this,"COM6",9600);
 }
+
 void draw(){
   if(p.available()>0){
     String m=p.readString();
