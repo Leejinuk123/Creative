@@ -53,7 +53,7 @@ void draw(){
    String m=c.readString();
    m = m.substring(m.length()-1);
    p.write(m);
-}
+}}
 void keyPressed(){
   background(0);
   p.write(key);
