@@ -1,3 +1,4 @@
+```arduino
 #include <Servo.h> // Include servo library
 Servo sl, sr; // Declare left and right servos
 void setup()
@@ -98,3 +99,4 @@ void backward(int time) {
   delay(time);
 
 }
+```
